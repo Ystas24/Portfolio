@@ -7,7 +7,5 @@
 
 ## 🚀 Як подивитись сайт
 Сайт доступний для всіх на GitHub Pages:  
-👉 [https://your-username.github.io/portfolio/](https://your-username.github.io/portfolio/)
-
-*(замініть `your-username` на ваш нік на GitHub)*
+👉 [https://ystas24.github.io/Portfolio//](https://ystas24.github.io/Portfolio/)
 
