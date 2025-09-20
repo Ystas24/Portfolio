@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Навички — Ярослав Романовський</title>
+  <meta name="description" content="Портфоліо програмування: Python, FastAPI, Django, Kivy, Pygame, SQLite." />
+  <link rel="preload" href="css/style.css" as="style" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  
+    <header>
+      <div class="container">
+        <nav>
+          <div class="brand">Ярослав — Dev Portfolio</div>
+          <div class="nav">
+            <a href="index.html" class="">Про мене</a>
+            <a href="skills.html" class="active">Навички</a>
+            <a href="projects.html" class="">Проєкти</a>
+            <a href="experience.html" class="">Досвід</a>
+            <a href="contact.html" class="">Контакти</a>
+          </div>
+          <button id="theme" class="btn" aria-label="Toggle theme">🌙 Тема</button>
+        </nav>
+      </div>
+    </header>
+    
+  <main class="container">
+    
+  <section id="skills">
+    <div class="row">
+      <div>
+        <p class="kicker">Навички</p>
+        <h2>Технології та інструменти</h2>
+      </div>
+    </div>
+    <div class="grid skills" style="margin-top:14px">
+      <div class="card skill">
+        <h3>Backend (Python)</h3>
+        <ul>
+          <li>FastAPI (JWT, cookies, routers)</li>
+          <li>Django (Auth, ORM, Templates)</li>
+          <li>SQLite, SQLAlchemy</li>
+        </ul>
+      </div>
+      <div class="card skill">
+        <h3>Desktop & Games</h3>
+        <ul>
+          <li>Pygame (танчики, рівні, спрайти)</li>
+          <li>Kivy + SQLite (облік фінансів)</li>
+        </ul>
+      </div>
+      <div class="card skill">
+        <h3>Frontend & UI</h3>
+        <ul>
+          <li>HTML, CSS, JS (ES6)</li>
+          <li>Glassmorphism дизайн</li>
+          <li>Адаптивність, доступність</li>
+        </ul>
+      </div>
+      <div class="card skill">
+        <h3>Інше</h3>
+        <ul>
+          <li>Git/GitHub, GitHub Pages</li>
+          <li>Віртуальні середовища, pip</li>
+          <li>Документація, README</li>
+        </ul>
+      </div>
+    </div>
+    <div class="card" style="margin-top:18px">
+      <strong>Основний стек:</strong>
+      <div class="chips" style="margin-top:10px">
+        <span class="chip">Python</span>
+        <span class="chip">FastAPI</span>
+        <span class="chip">Django</span>
+        <span class="chip">SQLite</span>
+        <span class="chip">SQLAlchemy</span>
+        <span class="chip">HTML</span>
+        <span class="chip">CSS</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">Pygame</span>
+        <span class="chip">Kivy</span>
+      </div>
+    </div>
+  </section>
+  
+  </main>
+  
+    <footer class="container">
+      <div class="row">
+        <div>© <span id="y"></span> Ярослав Романовський. Код цього сайту доступний публічно.</div>
+        <a class="btn" href="#">⬆️ До гори</a>
+      </div>
+    </footer>
+    
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
